@@ -25,15 +25,9 @@
 		  <para>This is a rough intro to installing the <systemitem class="protocol">SIP</systemitem> server for Evergreen.</para>
 		<simplesect xml:id="Gettingthecode">
 			    <title>Getting the code</title>
-				<para>Current <systemitem class="protocol">SIP</systemitem> code lives at github:</para>
+				<para>Current <systemitem class="protocol">SIP</systemitem> server code lives at in the Evergreen git repository:</para>
 				<screen><userinput>cd /opt</userinput></screen>
-				<screen><userinput>git clone git://github.com/atz/SIPServer.git SIPServer</userinput></screen>
-				<para>Or use the old style:</para>
-				<screen><userinput>$ cd /opt</userinput></screen>
-				<screen><userinput>$ sudo cvs -d:pserver:anonymous@openncip.cvs.sourceforge.net:/cvsroot/openncip login</userinput></screen>
-				<para>When prompted for the CVS password, just hit Enter (sudo password may be req'd)</para>
-				<screen><userinput>$ sudo cvs -z3 -d:pserver:anonymous@openncip.cvs.sourceforge.net:/cvsroot/openncip co -P SIPServer</userinput></screen>
-							 
+				<screen><userinput>git clone git://git.evergreen-ils.org/SIPServer.git SIPServer</userinput></screen>
 		</simplesect>
 		<simplesect xml:id="Configuring_Server">
 			<title>Configuring the Server</title>
@@ -98,8 +92,8 @@ max_servers='25'
 					<para>OR use SQL like:</para>
 <screen>
 <userinput>
-INSERT INTO permission.grp_tree (id,name,parent,description,application_perm) 
-VALUES (8, 'SIP', 1, 'SIP2 Client Systems', 'group_application.user.sip_client');
+INSERT INTO permission.grp_tree (name,parent,description,application_perm) 
+VALUES ('SIP', 1, 'SIP2 Client Systems', 'group_application.user.sip_client');
  
 INSERT INTO
   permission.grp_perm_map (grp, perm, depth, grantable)
@@ -128,13 +122,13 @@ WHERE
 <screen>
 <userinput>
 SELECT *
-FROM permission.grp_perm_map JOIN permission.perm_list ON
-permission.grp_perm_map.perm=permission.perm_list.id
-WHERE grp=8;
+FROM permission.grp_perm_map pgpm
+    INNER JOIN permission.perm_list ppl ON pgpm.perm = ppl.id
+    INNER JOIN permission.grp_tree pgt ON pgt.id = pgpm.grp
+WHERE pgt.name = 'SIP';
 </userinput>
 </screen>
 					
-					<para>Keep in mind that the id <emphasis role="bold">(8)</emphasis> may not necessarily be available on your system.</para>				
 				</step>
 				<step>
 					<para>For each account created in the &lt;login&gt; section of <filename>oils_sip.xml</filename>, create a user (via the staff client user editor) 
@@ -208,7 +202,7 @@ log { source(s_all); filter(f_eg_sip); destination(eg_sip); };
 			<title>Testing Your <systemitem class="protocol">SIP</systemitem> Connection</title><indexterm><primary>SIP</primary></indexterm>
 			<itemizedlist>
 				<listitem>
-					<para>In the top level CVS checkout of the SIPServer code.</para>
+					<para>In the root directory of the SIPServer code:</para>
 					<screen><userinput>$ cd SIPServer/t</userinput></screen>
 				</listitem>
 				<listitem>
@@ -451,7 +445,7 @@ Escape character is '^]'.
 					<listitem>99: other</listitem>
 			</itemizedlist>
 			<note>
-				<para>the logic for Evergreen to determine the content is magnetic_media comes from either legacy circ scripts or search_config_circ_modifier. 
+				<para>The logic for Evergreen to determine whether the content is magnetic_media comes from either legacy circ scripts or search_config_circ_modifier. 
 				The default is non-magnetic.<indexterm><primary>magnetic media</primary></indexterm> 
 				The same is true for media_type (default 001). Evergreen does not populate the collection_code because it does not really have any, but it will provide the 
 				call_number where available.</para>
