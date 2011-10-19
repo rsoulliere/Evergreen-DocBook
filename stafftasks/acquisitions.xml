@@ -17,7 +17,7 @@
 		<listitem><simpara>See the section on <link linkend="acquisitions-module_admin_functions">administrative functions in the acquisitions module</link> for details on acquisitions setup.</simpara></listitem>
 	</itemizedlist>
 <section id="acq_workflow">
-	<title>Acquisiton Workflow</title>
+	<title>Acquisitons Workflow</title>
 	<simpara>The following diagram shows how the workflow functions in Evergreen.  One of the differences in this process you should notice is that when creating a selection 
 	list on the vendor site, libraries will be downloading and importing the vendor bibs and item records.  This will not be batched overnight as was done with with the 
 	previous system.</simpara>
