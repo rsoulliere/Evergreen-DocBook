@@ -26,7 +26,7 @@
 			<phrase>Acquisitions Workflow</phrase> 
 		</alt>
 		<imageobject>
-			<imagedata fileref="../media/acq_workflow.jpg" format="JPG" scalefit="1"/> 
+			<imagedata fileref="../media/acq_workflow.jpg" format="JPG" scalefit="1" contentdepth='60%'/> 
 		</imageobject>
 	</mediaobject>
 </section>
