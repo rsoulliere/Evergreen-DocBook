@@ -3,8 +3,12 @@
       xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="EN"
       xmlns:xlink="http://www.w3.org/2001/xlink">
       <info>
+<<<<<<< rel_2_0
             <title>Evergreen 2.0 Documentation</title>
  		<subtitle>Draft Version</subtitle>
+=======
+            <title>Evergreen 2.1 Documentation</title>
+>>>>>>> local
 		<corpauthor>Documentation Interest Group</corpauthor>
 	         <mediaobject>
 			<imageobject>
