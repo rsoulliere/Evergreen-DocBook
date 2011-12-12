@@ -36,7 +36,7 @@
             	<info>
                 	<title>Introduction</title>
            	</info>	
-		<partintro xmlns:xl="http://www.w3.org/1999/xlink" xml:id="intro_intro">
+		<partintro xml:id="intro_intro">
     			<para>The book you’re holding in your hands or viewing on a screen is The Book of Evergreen, the official guide to the 2.x version of the Evergreen open 
 			source library automation software.  This guide was produced by the Evergreen Documentation Interest Group (DIG), consisting of numerous volunteers from many 
 			different organizations.  The DIG has drawn together, edited, and supplemented pre-existing documentation contributed by libraries and consortia running 
@@ -84,7 +84,7 @@
 		<info>
 			<title>Administration</title>
 		</info>
-		<partintro xmlns:xl="http://www.w3.org/1999/xlink" xml:id="admin_intro">
+		<partintro  xml:id="admin_intro">
 			<para>This part of the documentation is intended for Evergreen administrators and requires root access to your <application>Evergreen</application> server(s) 
 			and administrator access to the <application>Evergreen</application> 
 			staff client. It deals with maintaining servers, installation, upgrading, and configuring both system wide and local library settings. 
@@ -115,7 +115,7 @@
 		<info>
 			<title>Reports</title>
 		</info>
-		<partintro xmlns:xl="http://www.w3.org/1999/xlink" xml:id="report_intro">
+		<partintro  xml:id="report_intro">
 			<para>Reports are a powerful tool in Evergreen and can be used for statistical comparisons or collection maintenance. The following part covers everything 
 			dealing with reports from starting the reporter daemon to viewing reports your library has created. The range of topics in this part is quite broad and 
 			different chapters will be useful to different roles in an Evergreen library system.</para>
