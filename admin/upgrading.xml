@@ -11,7 +11,7 @@
 			
         	</abstract>
 	</info>    
-		<para>Evergreen 2.0 has several software requirements:</para>
+		<para>Evergreen 2.1 has several software requirements:</para>
  		<itemizedlist>
 			<listitem>PostgreSQL: Version 9.0 is the minimum supported version of PostgreSQL. </listitem>
 			<listitem>Linux: Evergreen 2.0 has been tested on Debian Squeeze (6.0) and Ubuntu Lucid Lynx (10.04). If you are running an older version of 
@@ -135,7 +135,6 @@ ln -s rel_2_1_1/server
 				
 				<para>If you were running Evergreen 2.0.x on PostgreSQL 8.4, you will need to upgrade to PostgreSQL 9.0:</para>
 				<substeps>
-					<title>Upgrade to PostgreSQL 9.0</title>
 					<step>   				
 						<para>Install the PostgreSQL 9.0 server packages following the 
 						<link linkend="_creating_the_evergreen_database">installation instructions</link>. Pay close attention to the backports section.</para>
@@ -201,7 +200,7 @@ psql -U evergreen -h localhost -f Open-ILS/src/sql/Pg/2.1.0-2.1.1-upgrade-db.sql
 			</step>
 			<step>
 				<substeps>
-					<title>Update Apache Files</title>
+					<para>Update Apache files:</para>
 					<caution>
 						<para>Copying these Apache configuration files will remove any customizations you have made to them. Remember to redo 
 						your customizations after copying them. For example, if you purchased an SSL certificate, you 
