@@ -73,7 +73,7 @@
 			staff and catalogers among others. Some of these procedures should only be performed by Local System Administrators, but most of these sections will give 
 			all staff a better understanding of the Evergreen system and its features.</para>
 		</partintro>
-	
+	<xi:include href="stafftasks/circulation.xml"/>
 	<!--	<xi:include href="stafftasks/booking.xml"/>
 		<xi:include href="stafftasks/acquisitions.xml"/>
 		<xi:include href="stafftasks/serials-gpls.xml"/>
