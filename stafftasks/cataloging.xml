@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <chapter xml:id="cataloging" xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="EN"
     xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Cataloging</title>
 <section xml:id="adding_holdings">
+<title>Adding Holdings</title>
 	<simplesect xml:id="Unified_Volume_Copy_Creator" >
 		<title>Unified Volume Copy Creator 2.1</title>
 		<simpara>The cataloging module in Evergreen version 2.1 now includes a unified volume/copy creator that enables a user to create volumes and copies in a 
