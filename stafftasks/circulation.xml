@@ -5,6 +5,7 @@
 </info>
 
 <section xml:id="Holds">
+	<title>Holds</title>
 <section id="_placing_holds">
 	<title>Placing Holds</title>
 	<simpara>Holds can be placed by staff in the Staff Client and by patrons in the OPAC. In this chapter we demonstrate placing holds on the Staff Client.</simpara>
@@ -482,7 +483,7 @@
 	<orderedlist numeration="arabic">
 	<listitem>
 	<simpara>
-	Holds on one title can be transferred to another with the hold request time preserved. To do so, you need to find the destination title, click Actions for this Record &lt; 
+	Holds on one title can be transferred to another with the hold request time preserved. To do so, you need to find the destination title, click Actions for this Record → 
 	Mark as Title Hold Transfer Destination.
 	</simpara>
 	<mediaobject>
