@@ -5,7 +5,7 @@
 <section xml:id="adding_holdings">
 <title>Adding Holdings</title>
 	<simplesect xml:id="Unified_Volume_Copy_Creator" >
-		<title>Unified Volume Copy Creator 2.1</title>
+		<title>Unified Volume Copy Creator</title>
 		<simpara>The cataloging module in Evergreen version 2.1 now includes a unified volume/copy creator that enables a user to create volumes and copies in a 
 		unified screen.  This function consolidates the process of creating volume and copy records.</simpara>
 		<simpara><emphasis role="strong">Administrative Settings</emphasis></simpara>
