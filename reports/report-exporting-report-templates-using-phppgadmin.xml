@@ -30,7 +30,12 @@
 		<para>The following statement could be used to grab the data in the folder and dump it with admin account as the owner and the first folder in your system.</para>
 		<screen>SELECT 1 as owner, name, description, data, 1 as folder FROM reporter.template</screen>
 		<para>or use the following to capture your folder names for export</para>
-		<screen>SELECT 1 as owner, t.name, t.description, t.data, f.name as folder FROM reporter.template t JOIN reporter.template_folder f ON t.folder=f.id</screen>
+		
+<screen>
+SELECT 1 as owner, t.name, t.description, t.data, f.name as folder 
+	FROM reporter.template t 
+	JOIN reporter.template_folder f ON t.folder=f.id
+</screen>
 		
 		<orderedlist>
 	 <listitem>Run the above query</listitem>

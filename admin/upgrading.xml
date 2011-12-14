@@ -198,15 +198,15 @@ psql -U evergreen -h localhost -f Open-ILS/src/sql/Pg/2.1.0-2.1.1-upgrade-db.sql
 				<caution><para>Copying these configuration files will remove any customizations you have made to them. Remember to redo your customizations after copying 
 				them.</para></caution>
 			</step>
-			<step>
-				<substeps>
-					<para>Update Apache files:</para>
-					<caution>
-						<para>Copying these Apache configuration files will remove any customizations you have made to them. Remember to redo 
-						your customizations after copying them. For example, if you purchased an SSL certificate, you 
-						will need to edit <filename>eg.conf</filename> to point to the appropriate SSL certificate files.</para>
-						<indexterm><primary>SSL</primary><secondary>certificates</secondary></indexterm>
-					</caution> 
+			<step>	
+				<para>Update Apache files:</para>
+				<caution>
+					<para>Copying these Apache configuration files will remove any customizations you have made to them. Remember to redo 
+					your customizations after copying them. For example, if you purchased an SSL certificate, you 
+					will need to edit <filename>eg.conf</filename> to point to the appropriate SSL certificate files.</para>
+					<indexterm><primary>SSL</primary><secondary>certificates</secondary></indexterm>
+				</caution>
+				<substeps> 
 					<step>
 						<para>Update <filename>/etc/apache2/startup.pl</filename> by copying the example from 
 						<filename>Open-ILS/examples/apache/startup.pl</filename>.

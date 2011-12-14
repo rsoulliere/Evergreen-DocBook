@@ -149,7 +149,7 @@
 		</note>
 		<mediaobject>
 		  <imageobject>
-		  <imagedata fileref="../media/unified_volume_copy_creator3.jpg"/>
+		  <imagedata width="100%" scalefit="1" fileref="../media/unified_volume_copy_creator3.jpg"/>
 		  </imageobject>
 		</mediaobject>
 		</listitem>
@@ -162,7 +162,7 @@
 		
 		<mediaobject>
 		  <imageobject>
-		  <imagedata fileref="../media/unified_volume_copy_creator4.jpg"/>
+		  <imagedata width="100%" scalefit="1" fileref="../media/unified_volume_copy_creator4.jpg"/>
 		  </imageobject>
 		</mediaobject>
 		
@@ -172,7 +172,7 @@
 		
 		<mediaobject>
 		  <imageobject>
-		  <imagedata fileref="../media/unified_volume_copy_creator5.jpg"/>
+		  <imagedata width="100%" scalefit="1" fileref="../media/unified_volume_copy_creator5.jpg"/>
 		  </imageobject>
 		</mediaobject>
 		
@@ -260,7 +260,7 @@
 		
 		<mediaobject>
 		  <imageobject>
-		  <imagedata fileref="../media/monograph_parts4.jpg"/>
+		  <imagedata width="100%" scalefit="1" fileref="../media/monograph_parts4.jpg"/>
 		  </imageobject>
 		</mediaobject>
 		
@@ -303,7 +303,7 @@
 		
 		<mediaobject>
  		 <imageobject>
-  			<imagedata fileref="../media/conj1.jpg"/>
+  			<imagedata width="100%" scalefit="1" fileref="../media/conj1.jpg"/>
  		 </imageobject>
 		</mediaobject>
 		
@@ -323,7 +323,7 @@
 		
 		<mediaobject>
 		  <imageobject>
-		  <imagedata fileref="../media/conj2.jpg"/>
+		  <imagedata width="100%" scalefit="1" fileref="../media/conj2.jpg"/>
 		  </imageobject>
 		</mediaobject>
 		
@@ -400,7 +400,7 @@
 		
 		<mediaobject>
 		  <imageobject>
-		  <imagedata fileref="../media/conj9.jpg"/>
+		  <imagedata width="100%" scalefit="1" fileref="../media/conj9.jpg"/>
 		  </imageobject>
 		</mediaobject>
 		

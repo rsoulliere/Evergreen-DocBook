@@ -117,7 +117,7 @@
 	</simpara>
 	<mediaobject>
 	  <imageobject>
-	<imagedata fileref="../media/holds-placing-3.png"/>
+	<imagedata width="100%" scalefit="1" fileref="../media/holds-placing-3.png"/>
 	</imageobject>
 	</mediaobject>
 	</listitem>
@@ -310,7 +310,7 @@
 	</simpara>
 	<mediaobject>
 	  <imageobject>
-	<imagedata fileref="../media/holds-placing-10.png"/>
+	<imagedata width="100%" scalefit="1" fileref="../media/holds-placing-10.png"/>
 	</imageobject>
 	</mediaobject>
 	</listitem>
@@ -320,7 +320,7 @@
 	</simpara>
 	<mediaobject>
 	  <imageobject>
-	<imagedata fileref="../media/holds-placing-11.png"/>
+	<imagedata width="100%" scalefit="1" fileref="../media/holds-placing-11.png"/>
 	</imageobject>
 	</mediaobject>
 	</listitem>
@@ -370,7 +370,7 @@
 	</simpara>
 	<mediaobject>
 	  <imageobject>
-	<imagedata fileref="../media/holds-managing-1.png"/>
+	<imagedata width="100%" scalefit="1" fileref="../media/holds-managing-1.png"/>
 	</imageobject>
 	</mediaobject>
 	</listitem>
@@ -401,7 +401,7 @@
 	</simpara>
 	<mediaobject>
 	  <imageobject>
-	<imagedata fileref="../media/holds-managing-3.png"/>
+	<imagedata width="100%" scalefit="1" fileref="../media/holds-managing-3.png"/>
 	</imageobject>
 	</mediaobject>
 	<note><simpara>Suspended holds will not be filled but its hold position will be kept. They will automatically become active on the activation day if there is an activation 
@@ -488,7 +488,7 @@
 	</simpara>
 	<mediaobject>
 	  <imageobject>
-	<imagedata fileref="../media/holds-managing-9.png"/>
+	<imagedata width="100%" scalefit="1" fileref="../media/holds-managing-9.png"/>
 	</imageobject>
 	</mediaobject>
 	</listitem>
@@ -550,7 +550,7 @@
 	</simpara>
 	<mediaobject>
 	  <imageobject>
-	<imagedata fileref="../media/holds-managing-14.png"/>
+	<imagedata width="100%" scalefit="1" fileref="../media/holds-managing-14.png"/>
 	</imageobject>
 	</mediaobject>
 	</listitem>
@@ -571,7 +571,7 @@
 	<simpara>Using the Column Picker, you can display Queue Position and Total number of Holds.</simpara>
 	<mediaobject>
 	  <imageobject>
-	<imagedata fileref="../media/holds-managing-16.png"/>
+	<imagedata width="100%" scalefit="1" fileref="../media/holds-managing-16.png"/>
 	</imageobject>
 	</mediaobject>
 	</simplesect>
@@ -707,7 +707,7 @@
 	</simpara>
 	<mediaobject>
 	  <imageobject>
-	<imagedata fileref="../media/holds-pull-2.png"/>
+	<imagedata width="100%" scalefit="1" fileref="../media/holds-pull-2.png"/>
 	</imageobject>
 	</mediaobject>
 	<note>
@@ -850,7 +850,7 @@
 	</simpara>
 	<mediaobject>
 	  <imageobject>
-	<imagedata fileref="../media/holds-notifications-1.png"/>
+	<imagedata width="100%" scalefit="1" fileref="../media/holds-notifications-1.png"/>
 	</imageobject>
 	</mediaobject>
 	<simpara>The “phone and email” option is the default for those users who have not yet set a preference.</simpara>
@@ -862,7 +862,7 @@
 	</simpara>
 	<mediaobject>
 	  <imageobject>
-	<imagedata fileref="../media/holds-notifications-2.png"/>
+	<imagedata width="100%" scalefit="1" fileref="../media/holds-notifications-2.png"/>
 	</imageobject>
 	</mediaobject>
 	</listitem>
@@ -918,7 +918,7 @@
 	</simpara>
 	<mediaobject>
 	  <imageobject>
-	<imagedata fileref="../media/holds-clearing-2.png"/>
+	<imagedata width="100%" scalefit="1" fileref="../media/holds-clearing-2.png"/>
 	</imageobject>
 	</mediaobject>
 	</listitem>
@@ -943,7 +943,7 @@
 	</simpara>
 	<mediaobject>
 	  <imageobject>
-	<imagedata fileref="../media/holds-clearing-4.png"/>
+	<imagedata width="100%" scalefit="1" fileref="../media/holds-clearing-4.png"/>
 	</imageobject>
 	</mediaobject>
 	</listitem>

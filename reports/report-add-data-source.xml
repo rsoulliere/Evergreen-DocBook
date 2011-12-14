@@ -250,7 +250,9 @@ where u.active = 't' and u.deleted &lt;&gt; 't';
     <para>The following example is a class definition for the example view
     that was created in the previous section.</para>
 
-    <para><programlisting>&lt;class id="erpstats" controller="open-ils.reporter-store" oils_obj:fieldmapper="extend_reporter::patronstats" oils_persist:tablename="extend_reporter.patronstats" oils_persist:readonly="true" reporter:label="Patron Statistics" reporter:core="true"&gt;
+    <para>
+<programlisting>&lt;class id="erpstats" controller="open-ils.reporter-store" oils_obj:fieldmapper="extend_reporter::patronstats" 
+oils_persist:tablename="extend_reporter.patronstats" oils_persist:readonly="true" reporter:label="Patron Statistics" reporter:core="true"&gt;
   &lt;fields oils_persist:primary="id"&gt;
   &lt;field reporter:label="Patron ID" name="id" reporter:datatype="link" /&gt;
   &lt;field reporter:label="Patron Type" name="ptype" reporter:datatype="text" /&gt;
@@ -310,7 +312,9 @@ where u.active = 't' and u.deleted &lt;&gt; 't';
       <listitem>
         <para>Restart the Evergreen reporter. You may need to modify this
         command depending on your system configuration and pid
-        path<programlisting>opensrf-perl.pl -l -action restart -service open-ils.reporter -config /openils/conf/opensrf_core.xml -pid-dir /openils/var/run</programlisting></para>
+        path
+<programlisting>opensrf-perl.pl -l -action restart -service open-ils.reporter \
+-config /openils/conf/opensrf_core.xml -pid-dir /openils/var/run</programlisting></para>
       </listitem>
 
       <listitem>
