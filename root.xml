@@ -100,8 +100,10 @@
 			<link xlink:href="http://httpd.apache.org/docs/"><application>Apache</application></link><indexterm><primary>Apache</primary></indexterm> documentation 
 			for a greater understanding of the software stack on which <application>Evergreen</application> is built.</para>
 		</partintro>
+		<xi:include href="admin/requirements-configuration.xml"/>
 		<xi:include href="admin/server_install.xml"/>
 		<xi:include href="admin/upgrading.xml"/>
+		<xi:include href="admin/AdminMisc.xml"/>
 		<!--<xi:include href="admin/sip.xml"/>
 		<xi:include href="admin/z3950.xml"/>
 		<xi:include href="admin/troubleshooting.xml"/>		
