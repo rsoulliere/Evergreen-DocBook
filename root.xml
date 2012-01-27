@@ -64,6 +64,7 @@
 		<xi:include href="admin/requirements-configuration.xml"/>	
 		<xi:include href="admin/serversideinstallation_2.0.xml"/>
 		<xi:include href="admin/staffclientinstallation.xml"/>	
+		
 		<xi:include href="admin/Upgrading-Evergreen-2.0.xml"/>
 		<xi:include href="admin/migratingdata_2.0.xml"/>
 		<xi:include href="admin/AdminMisc.xml"/>
