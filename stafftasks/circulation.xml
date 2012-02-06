@@ -14,7 +14,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/checkout_menu.png"/>
+  <imagedata fileref="../media/checkout_menu.png"/>
   </imageobject>
   <textobject><phrase>media/checkout_menu.png</phrase></textobject>
 </mediaobject>
@@ -23,7 +23,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/retrieve_patron.png"/>
+  <imagedata fileref="../media/retrieve_patron.png"/>
   </imageobject>
   <textobject><phrase>media/retrieve_patron.png</phrase></textobject>
 </mediaobject>
@@ -32,7 +32,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/checkout_item_barcode.png"/>
+  <imagedata fileref="../media/checkout_item_barcode.png"/>
   </imageobject>
   <textobject><phrase>media/checkout_item_barcode.png</phrase></textobject>
 </mediaobject>
@@ -41,7 +41,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/due_date_display.png"/>
+  <imagedata fileref="../media/due_date_display.png"/>
   </imageobject>
   <textobject><phrase>media/due_date_display.png</phrase></textobject>
 </mediaobject>
@@ -56,7 +56,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/pre_cat_alert.png"/>
+  <imagedata fileref="../media/pre_cat_alert.png"/>
   </imageobject>
   <textobject><phrase>media/pre_cat_alert.png</phrase></textobject>
 </mediaobject>
@@ -65,7 +65,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/precat.png"/>
+  <imagedata fileref="../media/precat.png"/>
   </imageobject>
   <textobject><phrase>media/precat.png</phrase></textobject>
 </mediaobject>
@@ -79,7 +79,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/specify_due_date1.png"/>
+  <imagedata fileref="../media/specify_due_date1.png"/>
   </imageobject>
   <textobject><phrase>media/specify_due_date1.png</phrase></textobject>
 </mediaobject>
@@ -87,7 +87,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/specify_due_date2.png"/>
+  <imagedata fileref="../media/specify_due_date2.png"/>
   </imageobject>
   <textobject><phrase>media/specify_due_date2.png</phrase></textobject>
 </mediaobject>
@@ -102,7 +102,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/check_in_menu.png"/>
+  <imagedata fileref="../media/check_in_menu.png"/>
   </imageobject>
   <textobject><phrase>media/check_in_menu.png</phrase></textobject>
 </mediaobject>
@@ -111,7 +111,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/checkin_barcode.png"/>
+  <imagedata fileref="../media/checkin_barcode.png"/>
   </imageobject>
   <textobject><phrase>media/checkin_barcode.png</phrase></textobject>
 </mediaobject>
@@ -120,7 +120,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/overdue_checkin.png"/>
+  <imagedata fileref="../media/overdue_checkin.png"/>
   </imageobject>
   <textobject><phrase>media/overdue_checkin.png</phrase></textobject>
 </mediaobject>
@@ -133,7 +133,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/backdate_checkin.png"/>
+  <imagedata fileref="../media/backdate_checkin.png"/>
   </imageobject>
   <textobject><phrase>media/backdate_checkin.png</phrase></textobject>
 </mediaobject>
@@ -142,7 +142,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/backdate_red.png"/>
+  <imagedata fileref="../media/backdate_red.png"/>
   </imageobject>
   <textobject><phrase>media/backdate_red.png</phrase></textobject>
 </mediaobject>
@@ -156,7 +156,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/backdate_post_checkin.png"/>
+  <imagedata fileref="../media/backdate_post_checkin.png"/>
   </imageobject>
   <textobject><phrase>media/backdate_post_checkin.png</phrase></textobject>
 </mediaobject>
@@ -165,7 +165,7 @@
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/backdate_post_date.png"/>
+  <imagedata fileref="../media/backdate_post_date.png"/>
   </imageobject>
   <textobject><phrase>media/backdate_post_date.png</phrase></textobject>
 </mediaobject>
@@ -199,7 +199,7 @@ Auto-Print Hold and Transit Slips: slips will be automatically printed without p
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/checkin_options.png"/>
+  <imagedata fileref="../media/checkin_options.png"/>
   </imageobject>
   <textobject><phrase>media/checkin_options.png</phrase></textobject>
 </mediaobject>
@@ -216,7 +216,7 @@ Auto-Print Hold and Transit Slips: slips will be automatically printed without p
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/items_out_click.png"/>
+  <imagedata fileref="../media/items_out_click.png"/>
   </imageobject>
   <textobject><phrase>media/items_out_click.png</phrase></textobject>
 </mediaobject>
@@ -225,7 +225,7 @@ Auto-Print Hold and Transit Slips: slips will be automatically printed without p
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/renew_action.png"/>
+  <imagedata fileref="../media/renew_action.png"/>
   </imageobject>
   <textobject><phrase>media/renew_action.png</phrase></textobject>
 </mediaobject>
@@ -234,7 +234,7 @@ Auto-Print Hold and Transit Slips: slips will be automatically printed without p
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/renew_specific_date.png"/>
+  <imagedata fileref="../media/renew_specific_date.png"/>
   </imageobject>
   <textobject><phrase>media/renew_specific_date.png</phrase></textobject>
 </mediaobject>
@@ -248,7 +248,7 @@ Auto-Print Hold and Transit Slips: slips will be automatically printed without p
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/renew_item.png"/>
+  <imagedata fileref="../media/renew_item.png"/>
   </imageobject>
   <textobject><phrase>media/renew_item.png</phrase></textobject>
 </mediaobject>
@@ -257,7 +257,7 @@ Auto-Print Hold and Transit Slips: slips will be automatically printed without p
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/renew_item_calendar.png"/>
+  <imagedata fileref="../media/renew_item_calendar.png"/>
   </imageobject>
   <textobject><phrase>media/renew_item_calendar.png</phrase></textobject>
 </mediaobject>
@@ -270,7 +270,7 @@ Auto-Print Hold and Transit Slips: slips will be automatically printed without p
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/edit_due_date_action.png"/>
+  <imagedata fileref="../media/edit_due_date_action.png"/>
   </imageobject>
   <textobject><phrase>media/edit_due_date_action.png</phrase></textobject>
 </mediaobject>
@@ -289,7 +289,7 @@ Auto-Print Hold and Transit Slips: slips will be automatically printed without p
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/mark_lost.png"/>
+  <imagedata fileref="../media/mark_lost.png"/>
   </imageobject>
   <textobject><phrase>media/mark_lost.png</phrase></textobject>
 </mediaobject>
@@ -298,7 +298,7 @@ Auto-Print Hold and Transit Slips: slips will be automatically printed without p
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/lost_cr_section.png"/>
+  <imagedata fileref="../media/lost_cr_section.png"/>
   </imageobject>
   <textobject><phrase>media/lost_cr_section.png</phrase></textobject>
 </mediaobject>
@@ -307,7 +307,7 @@ Auto-Print Hold and Transit Slips: slips will be automatically printed without p
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/patron_summary_checkouts.jpg"/>
+  <imagedata fileref="../media/patron_summary_checkouts.jpg"/>
   </imageobject>
   <textobject><phrase>media/patron_summary_checkouts.jpg</phrase></textobject>
 </mediaobject>
@@ -345,7 +345,7 @@ The replacement fee and processing fee for lost-then-returned items may be voide
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/mark_claims_returned.png"/>
+  <imagedata fileref="../media/mark_claims_returned.png"/>
   </imageobject>
   <textobject><phrase>media/mark_claims_returned.png</phrase></textobject>
 </mediaobject>
@@ -354,7 +354,7 @@ The replacement fee and processing fee for lost-then-returned items may be voide
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/claimed_date.png"/>
+  <imagedata fileref="../media/claimed_date.png"/>
   </imageobject>
   <textobject><phrase>media/claimed_date.png</phrase></textobject>
 </mediaobject>
@@ -363,7 +363,7 @@ The replacement fee and processing fee for lost-then-returned items may be voide
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/lost_cr_section.png"/>
+  <imagedata fileref="../media/lost_cr_section.png"/>
   </imageobject>
   <textobject><phrase>media/lost_cr_section.png</phrase></textobject>
 </mediaobject>
@@ -372,7 +372,7 @@ The replacement fee and processing fee for lost-then-returned items may be voide
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/patron_summary_checkouts.jpg"/>
+  <imagedata fileref="../media/patron_summary_checkouts.jpg"/>
   </imageobject>
   <textobject><phrase>media/patron_summary_checkouts.jpg</phrase></textobject>
 </mediaobject>
@@ -405,7 +405,7 @@ When an item is marked Claimed Returned, the value in <emphasis role="strong">Cl
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/record_in_house_action"/>
+  <imagedata fileref="media/record_in_house_action.png"/>
   </imageobject>
   <textobject><phrase>media/record_in_house_action</phrase></textobject>
 </mediaobject>
@@ -414,7 +414,7 @@ When an item is marked Claimed Returned, the value in <emphasis role="strong">Cl
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/in_house_use.png"/>
+  <imagedata fileref="../media/in_house_use.png"/>
   </imageobject>
   <textobject><phrase>media/in_house_use.png</phrase></textobject>
 </mediaobject>
@@ -430,7 +430,7 @@ When an item is marked Claimed Returned, the value in <emphasis role="strong">Cl
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/item_status_menu.png"/>
+  <imagedata fileref="../media/item_status_menu.png"/>
   </imageobject>
   <textobject><phrase>media/item_status_menu.png</phrase></textobject>
 </mediaobject>
@@ -439,7 +439,7 @@ When an item is marked Claimed Returned, the value in <emphasis role="strong">Cl
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/item_status_barcode.png"/>
+  <imagedata fileref="../media/item_status_barcode.png"/>
   </imageobject>
   <textobject><phrase>media/item_status_barcode.png</phrase></textobject>
 </mediaobject>
@@ -448,7 +448,7 @@ When an item is marked Claimed Returned, the value in <emphasis role="strong">Cl
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/item_status_altview.png"/>
+  <imagedata fileref="../media/item_status_altview.png"/>
   </imageobject>
   <textobject><phrase>media/item_status_altview.png</phrase></textobject>
 </mediaobject>
@@ -457,7 +457,7 @@ When an item is marked Claimed Returned, the value in <emphasis role="strong">Cl
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/item_status_list_view.png"/>
+  <imagedata fileref="../media/item_status_list_view.png"/>
   </imageobject>
   <textobject><phrase>media/item_status_list_view.png</phrase></textobject>
 </mediaobject>
@@ -472,7 +472,7 @@ When an item is marked Claimed Returned, the value in <emphasis role="strong">Cl
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/last_few_circs_action.png"/>
+  <imagedata fileref="../media/last_few_circs_action.png"/>
   </imageobject>
   <textobject><phrase>media/last_few_circs_action.png</phrase></textobject>
 </mediaobject>
@@ -481,7 +481,7 @@ When an item is marked Claimed Returned, the value in <emphasis role="strong">Cl
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/last_few_circs_display.png"/>
+  <imagedata fileref="../media/last_few_circs_display.png"/>
   </imageobject>
   <textobject><phrase>media/last_few_circs_display.png</phrase></textobject>
 </mediaobject>
@@ -497,7 +497,7 @@ When an item is marked Claimed Returned, the value in <emphasis role="strong">Cl
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/mark_missing_damaged.png"/>
+  <imagedata fileref="../media/mark_missing_damaged.png"/>
   </imageobject>
   <textobject><phrase>media/mark_missing_damaged.png</phrase></textobject>
 </mediaobject>
@@ -515,7 +515,7 @@ Depending on the library&#8217;s policy, when marking an item damaged, bills (co
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/copy_edit_alert.png"/>
+  <imagedata fileref="../media/copy_edit_alert.png"/>
   </imageobject>
   <textobject><phrase>media/copy_edit_alert.png</phrase></textobject>
 </mediaobject>
@@ -524,7 +524,7 @@ Depending on the library&#8217;s policy, when marking an item damaged, bills (co
 <informalfigure>
 <mediaobject>
   <imageobject>
-  <imagedata fileref="media/copy_alert_message.png"/>
+  <imagedata fileref="../media/copy_alert_message.png"/>
   </imageobject>
   <textobject><phrase>media/copy_alert_message.png</phrase></textobject>
 </mediaobject>
