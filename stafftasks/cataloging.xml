@@ -2,6 +2,324 @@
 <chapter xml:id="cataloging" xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="EN"
     xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Cataloging</title>
+
+  <section xml:id="MARC_editor">
+    <title>Working with the MARC Editor</title>
+
+    <indexterm>
+      <primary>cataloguing</primary>
+
+      <secondary>MARC</secondary>
+    </indexterm>
+
+    <para>The MARC Editor allows MARC tags, sub-fields, and
+    indicators to be edited.</para>
+
+    <para>OPAC icons for text, moving pictures and sound rely on
+    correct MARC coding in the leader and the 008, as do OPAC
+    search filters such as publication date, item type, or target
+    audience. Bibliographic matching and de-duplicating also need
+    correct and consistent MARC coding in particular tags.</para>
+
+    <simplesect xml:id="editingMARCrecords">
+      <title>Editing MARC Records</title>
+
+      <indexterm>
+        <primary>cataloguing</primary>
+
+        <secondary>editing MARC records</secondary>
+      </indexterm>
+
+      <procedure>
+        <step>
+          <para>Retrieve the record.</para>
+        </step>
+
+        <step>
+          <para>
+          <menuchoice>
+            <guimenu>Actions for this Record</guimenu>
+
+            <guimenuitem>MARC Edit</guimenuitem>
+          </menuchoice>
+
+          .</para>
+        </step>
+
+        <step>
+          <para>The MARC record will display.</para>
+        </step>
+
+        <step>
+          <para>Select viewing and editing options, if
+          desired.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>
+              <guilabel>Stack subfields</guilabel>
+
+              to display each subfield on its own line.</para>
+            </listitem>
+
+            <listitem>
+              <para>
+              <guilabel>Flat-Text Editor</guilabel>
+
+              switches to a plain-text (menmonic) MARC format.
+              The advantage of this format is being able to copy
+              and paste multiple lines. It also allows the use of
+              tools like MarcEdit (
+              <link
+              xlink:href="http://people.oregonstate.edu/~reeset/marcedit/html/index.php">
+              http://people.oregonstate.edu/~reeset/marcedit/html/index.php</link>
+
+              ). Unclick the box to switch back.</para>
+            </listitem>
+
+            <listitem>
+              <para>
+              <guilabel>Fast Item Add</guilabel>
+
+              allows attaching items quickly with call number and
+              barcode. When
+              <guibutton>Save</guibutton>
+
+              is clicked, the **INSERT CROSS-REFERENCE** Copy
+              Editor will open.</para>
+            </listitem>
+          </itemizedlist>
+        </step>
+
+        <step>
+          <para>Make changes as desired.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>Right click into a tag field to add/remove
+              rows or replace tags.</para>
+            </listitem>
+
+            <listitem>
+              <para>With the cursor at the end of a subfield,
+              click
+              <keycap>Control + D</keycap>
+
+              (
+              <keycap>Control + I</keycap>
+
+              in Mac OSX) to insert a new subfield.</para>
+            </listitem>
+
+            <listitem>
+              <para>To remove a subfield, click
+              <keycap>Shift + Delete</keycap>
+              </para>
+            </listitem>
+
+            <listitem>
+              <para>To work with the data in a tag or indicator,
+              click or
+              <keycap>Tab</keycap>
+
+              into the required field.
+              <emphasis>Right click</emphasis>
+
+              to view acceptable tags or indicators.</para>
+            </listitem>
+
+            <listitem>
+              <indexterm>
+                <primary>MARC</primary>
+
+                <secondary>MARC leader</secondary>
+              </indexterm>
+
+              <indexterm>
+                <primary>MARC</primary>
+
+                <secondary>fixed field 008</secondary>
+              </indexterm>
+
+              <para>Parts of the leader and the 008 field can be
+              edited with the fixed field box displayed above the
+              MARC record. Click into any box to edit the
+              contents. (Information about the leader and the 008
+              can be found on the Library of Congress's MARC
+              Standards page at
+              <link
+              xlink:href="http://www.loc.gov/marc/bibliographic/ecbdlist.html">
+              http://www.loc.gov/marc/bibliographic/ecbdlist.html</link>
+
+              .)</para>
+            </listitem>
+          </itemizedlist>
+
+          <tip>
+            <para>The MARC Editor may be navigated using keyboard
+            shortcuts. Click
+            <guibutton>Help</guibutton>
+
+            to see the shortcut menu from within the MARC
+            Editor.</para>
+          </tip>
+        </step>
+
+        <step>
+          <para>When finished, click
+          <guibutton>Save Record</guibutton>
+
+          . The record stays open in the editor. You can close
+          the tab or switch to another view under
+          <guimenu>Actions for this Record</guimenu>
+
+          (for example to view it as it appears in the
+          OPAC).</para>
+        </step>
+      </procedure>
+    </simplesect>
+
+    <simplesect xml:id="overlayingMARCrecords">
+      <title>Overlaying MARC Records</title>
+
+      <indexterm>
+        <primary>cataloguing</primary>
+
+        <secondary>overlaying MARC records</secondary>
+      </indexterm>
+
+      <para>Overlaying a MARC record replaces an existing MARC
+      record while leaving all holdings, holds, active
+      circulations, bills, and fines intact.</para>
+
+      <para>In Evergreen, a record must be
+      <emphasis>marked</emphasis>
+
+      for overlay. The mark for overlay is by login. Only one
+      record at a time may be marked for overlay. When another
+      record is marked for overlay, the previously marked item is
+      
+      <emphasis>de-marked</emphasis>
+
+      . Once a record is marked, it remains marked until overlaid
+      or until the user logs out of Evergreen.</para>
+
+      <procedure>
+        <title>Marking a record for overlay</title>
+
+        <step>
+          <para>Search for and retrieve a record for
+          overlay.</para>
+        </step>
+
+        <step>
+          <para>Select
+          <menuchoice>
+            <guimenu>Actions for this Record</guimenu>
+
+            <guimenuitem>Mark for Overlay</guimenuitem>
+          </menuchoice>
+
+          . Record is now
+          <emphasis>marked</emphasis>
+
+          .</para>
+        </step>
+      </procedure>
+
+      <procedure>
+        <title>Overlaying the marked record</title>
+
+        <step>
+          <para>Once the record is marked for overlay, proceed to
+          
+          <link linkend="z39.50">search for and import the new
+          record from a Z39.50 target</link>
+
+          .</para>
+        </step>
+
+        <step>
+          <para>Click
+          <guibutton>MARC Editor for Overlay</guibutton>
+
+          . The TCN of the Evergreen record marked for overlay is
+          displayed.</para>
+        </step>
+
+        <step>
+          <para>The record displays in MARC Edit view. Edit the
+          record as necessary.</para>
+        </step>
+
+        <step>
+          <para>Click
+          <guibutton>Overlay Record</guibutton>
+
+          .</para>
+        </step>
+
+        <step>
+          <para>The existing record will display along with a
+          prompt to confirm the overlay. Panes may be moved to
+          view the record in entirety, if required.</para>
+        </step>
+
+        <step>
+          <para>Click
+          <guibutton>Overlay</guibutton>
+
+          .</para>
+        </step>
+
+        <step>
+          <para>Confirm the overlay. The record in Evergreen is
+          overlaid with the new MARC record. All pre-existing
+          holdings remain intact.</para>
+        </step>
+      </procedure>
+    </simplesect>
+
+    <simplesect xml:id="validatingMARCrecords">
+      <title>Validating MARC Records</title>
+
+      <indexterm>
+        <primary>cataloguing</primary>
+
+        <secondary>validating records</secondary>
+      </indexterm>
+
+      <para>Validation checks headings that are subject to
+      authority control (subjects, names, uniform titles) by
+      comparing them to the authority records that are available
+      in the system.</para>
+
+      <procedure>
+        <step>Click
+        <guibutton>Validate</guibutton>
+
+        .</step>
+
+        <step>Scroll through the record looking for fields that
+        have turned red.</step>
+
+        <step>Right-click on a field that is red. The closest
+        valid headings will display.</step>
+
+        <step>To apply a heading, mouse over it and click
+        <guilabel>Apply Selected</guilabel>
+
+        .</step>
+
+        <step>Fields that do not validate are not necessarily
+        invalid--there may not be an authority record for that
+        name/subject/title. If you have the appropriate
+        permissions, you can add an authority record based on the
+        existing record.</step>
+      </procedure>
+    </simplesect>
+  </section>
+
 <section xml:id="adding_holdings">
 <title>Adding Holdings</title>
 	<simplesect xml:id="Unified_Volume_Copy_Creator" >
