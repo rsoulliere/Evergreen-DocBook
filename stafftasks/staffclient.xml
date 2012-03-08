@@ -466,4 +466,310 @@
          </orderedlist>
       </simplesect>
    </section>
+
+<section id="_preset_tabs_in_evergreen_client">
+
+<title>Preset Tabs in Evergreen Client</title>
+
+<simpara>To have preset tabs waiting when Evergreen opens you will need to modify the <emphasis role="strong">Evergreen shortcut</emphasis> on your desktop.</simpara>
+
+<simpara>1) First, you need to copy your shortcut. There are a couple of ways to do this.</simpara>
+
+<simpara>A) Right-mouse click and drag icon; upon release select *Create Shortcut Here*.</simpara>
+
+<informalfigure>
+
+<mediaobject>
+
+  <imageobject>
+
+  <imagedata fileref="media/create_shortcut_here.png"/>
+
+  </imageobject>
+
+  <textobject><phrase>media/create_shortcut_here.png</phrase></textobject>
+
+</mediaobject>
+
+</informalfigure>
+
+<simpara>B) Right-mouse click icon, select *Send to*, and select *Desktop (create shortcut)*.</simpara>
+
+<informalfigure>
+
+<mediaobject>
+
+  <imageobject>
+
+  <imagedata fileref="media/send_to_desktop.png"/>
+
+  </imageobject>
+
+  <textobject><phrase>media/send_to_desktop.png</phrase></textobject>
+
+</mediaobject>
+
+</informalfigure>
+
+<simpara>2) Right-mouse click the new shortcut and select <emphasis role="strong">Properties</emphasis>.</simpara>
+
+<informalfigure>
+
+<mediaobject>
+
+  <imageobject>
+
+  <imagedata fileref="media/shortcut_properties.png"/>
+
+  </imageobject>
+
+  <textobject><phrase>media/shortcut_properties.png</phrase></textobject>
+
+</mediaobject>
+
+</informalfigure>
+
+<simpara>3) Listed in the <emphasis role="strong">Target</emphasis> box you will see something like the following path surrounded by quotation marks:   "C:\Program Files\Evergreen Staff Client MVLC\evergreen.exe"</simpara>
+
+<informalfigure>
+
+<mediaobject>
+
+  <imageobject>
+
+  <imagedata fileref="media/shortcut_properties_window.png"/>
+
+  </imageobject>
+
+  <textobject><phrase>media/shortcut_properties_window.png</phrase></textobject>
+
+</mediaobject>
+
+</informalfigure>
+
+<simpara>4) Place your cursor after the ending quotation mark. Enter a space after the last quotation mark and then enter the tab code from the list below. Add multiple tabs with a space separating them.</simpara>
+
+<informalfigure>
+
+<mediaobject>
+
+  <imageobject>
+
+  <imagedata fileref="media/preset_tabs.png"/>
+
+  </imageobject>
+
+  <textobject><phrase>media/preset_tabs.png</phrase></textobject>
+
+</mediaobject>
+
+</informalfigure>
+
+<simpara>For Example, to have Checkout, Checkin, Catalog Search, and a blank tab preset:
+
+"C:\Program Files\Evergreen Staff Client MVLC\evergreen.exe" -ilscheckout -ilscheckin -ilsurl XUL_OPAC_WRAPPER -ilstab</simpara>
+
+<simpara>5) The following options are available:</simpara>
+
+<itemizedlist>
+
+<listitem>
+
+<simpara>
+
+-ILScheckin : Opens the Check In interface
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ILScheckout : Opens the Check Out interface
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ILSurl &lt;url/constant&gt; : Opens the specified page
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ILSnew : Opens a new "menu" window
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ILStab : Opens a new (default) tab
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ILSnew_default : Opens a new "menu" window with a guaranteed default tab
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ILSoffline/-ILSstandalone : Opens the standalone interface
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ILSlogin : Opens the login page
+
+</simpara>
+
+</listitem>
+
+</itemizedlist>
+
+<tip>
+
+<title>Examples</title>
+
+<simpara>Useful Tab Codes:</simpara>
+
+<itemizedlist>
+
+<listitem>
+
+<simpara>
+
+-ilsurl XUL_PATRON_DISPLAY : Opens a Patron Search tab
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ilsurl XUL_HOLD_PULL_LIST : Opens a Pull List tab
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ilsurl XUL_HOLDS_BROWSER :   Opens a Browse Holds Shelf tab
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ilsurl XUL_OPAC_WRAPPER : Opens an Advanced Catalog search tab
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ilsurl XUL_COPY_STATUS : Opens an Item status by barcode tab
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ilsurl XUL_RECORD_BUCKETS : Opens a Manage Record Buckets tab
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ilsurl XUL_COPY_BUCKETS : Opens a Manage Copy Buckets tab
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ilsurl XUL_MARC_NEW : Opens a Create new MARC record tab
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+-ilsurl XUL_Z3950_IMPORT : Opens an Import record from Z39.50 tab
+
+</simpara>
+
+</listitem>
+
+<listitem>
+
+<simpara>
+
+To open two windows, one with checkin and checkout, one with Marc and Z39.50, use:
+
+</simpara>
+
+<simpara>-ilscheckin -ilscheckout -ilsnew -ilsurl XUL_MARC_NEW -ilsurl XUL_Z3950_IMPORT</simpara>
+
+</listitem>
+
+</itemizedlist>
+
+</tip>
+
+<simpara>6) You may want to rename your shortcut to reflect its purpose. For example, you could have one icon set to open circulation-related tabs and one icon to open cataloging-related tabs. Right-mouse click and select <emphasis role="strong">Rename</emphasis> to do this.</simpara>
+
+</section>
 </chapter>
