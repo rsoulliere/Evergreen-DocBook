@@ -473,9 +473,10 @@
 
 <simpara>To have preset tabs waiting when Evergreen opens you will need to modify the <emphasis role="strong">Evergreen shortcut</emphasis> on your desktop.</simpara>
 
+
 <simpara>1) First, you need to copy your shortcut. There are a couple of ways to do this.</simpara>
 
-<simpara>A) Right-mouse click and drag icon; upon release select *Create Shortcut Here*.</simpara>
+<simpara>A) Right-mouse click and drag icon; upon release select <guilabel>Create Shortcut Here</guilabel>.</simpara>
 
 <informalfigure>
 
@@ -493,7 +494,7 @@
 
 </informalfigure>
 
-<simpara>B) Right-mouse click icon, select *Send to*, and select *Desktop (create shortcut)*.</simpara>
+<simpara>B) Right-mouse click icon, select <guilabel>Send to</guilabel>, and select <guilabel>Desktop (create shortcut)</guilabel>.</simpara>
 
 <informalfigure>
 
@@ -511,7 +512,7 @@
 
 </informalfigure>
 
-<simpara>2) Right-mouse click the new shortcut and select <emphasis role="strong">Properties</emphasis>.</simpara>
+<simpara>2) Right-mouse click the new shortcut and select <guilabel>Properties</guilabel>.</simpara>
 
 <informalfigure>
 
@@ -529,7 +530,7 @@
 
 </informalfigure>
 
-<simpara>3) Listed in the <emphasis role="strong">Target</emphasis> box you will see something like the following path surrounded by quotation marks:   "C:\Program Files\Evergreen Staff Client MVLC\evergreen.exe"</simpara>
+<simpara>3) Listed in the <emphasis role="strong">Target</emphasis> box you will see something like the following path surrounded by quotation marks:   <command>C:\Program Files\Evergreen Staff Client MVLC\evergreen.exe</command></simpara>
 
 <informalfigure>
 
@@ -567,7 +568,7 @@
 
 <simpara>For Example, to have Checkout, Checkin, Catalog Search, and a blank tab preset:
 
-"C:\Program Files\Evergreen Staff Client MVLC\evergreen.exe" -ilscheckout -ilscheckin -ilsurl XUL_OPAC_WRAPPER -ilstab</simpara>
+<command>C:\Program Files\Evergreen Staff Client MVLC\evergreen.exe" -ilscheckout -ilscheckin -ilsurl XUL_OPAC_WRAPPER -ilstab</command></simpara>
 
 <simpara>5) The following options are available:</simpara>
 
@@ -607,7 +608,7 @@
 
 <simpara>
 
--ILSnew : Opens a new "menu" window
+-ILSnew : Opens a new <quote>menu</quote> window
 
 </simpara>
 
@@ -627,7 +628,7 @@
 
 <simpara>
 
--ILSnew_default : Opens a new "menu" window with a guaranteed default tab
+-ILSnew_default : Opens a new <quote>menu</quote> window with a guaranteed default tab
 
 </simpara>
 
@@ -769,7 +770,7 @@ To open two windows, one with checkin and checkout, one with Marc and Z39.50, us
 
 </tip>
 
-<simpara>6) You may want to rename your shortcut to reflect its purpose. For example, you could have one icon set to open circulation-related tabs and one icon to open cataloging-related tabs. Right-mouse click and select <emphasis role="strong">Rename</emphasis> to do this.</simpara>
+<simpara>6) You may want to rename your shortcut to reflect its purpose. For example, you could have one icon set to open circulation-related tabs and one icon to open cataloging-related tabs. Right-mouse click and select <guilabel>Rename</guilabel> to do this.</simpara>
 
 </section>
 </chapter>
