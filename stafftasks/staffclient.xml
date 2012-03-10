@@ -484,7 +484,7 @@
 
   <imageobject>
 
-  <imagedata fileref="media/create_shortcut_here.png"/>
+  <imagedata fileref="../media/create_shortcut_here.png"/>
 
   </imageobject>
 
@@ -502,7 +502,7 @@
 
   <imageobject>
 
-  <imagedata fileref="media/send_to_desktop.png"/>
+  <imagedata fileref="../media/send_to_desktop.png"/>
 
   </imageobject>
 
@@ -520,7 +520,7 @@
 
   <imageobject>
 
-  <imagedata fileref="media/shortcut_properties.png"/>
+  <imagedata fileref="../media/shortcut_properties.png"/>
 
   </imageobject>
 
@@ -538,7 +538,7 @@
 
   <imageobject>
 
-  <imagedata fileref="media/shortcut_properties_window.png"/>
+  <imagedata fileref="../media/shortcut_properties_window.png"/>
 
   </imageobject>
 
@@ -556,7 +556,7 @@
 
   <imageobject>
 
-  <imagedata fileref="media/preset_tabs.png"/>
+  <imagedata fileref="../media/preset_tabs.png"/>
 
   </imageobject>
 
