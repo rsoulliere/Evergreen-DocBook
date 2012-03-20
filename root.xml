@@ -106,11 +106,11 @@
 		<xi:include href="admin/upgrading.xml"/>
 		<xi:include href="admin/AdminMisc.xml"/>
 		<xi:include href="admin/migratingdata.xml"/>
+		<xi:include href="admin/acquisitions_admin_functions.xml"/>
 		<!--<xi:include href="admin/sip.xml"/>
 		<xi:include href="admin/z3950.xml"/>
 		<xi:include href="admin/troubleshooting.xml"/>		
 		<xi:include href="admin/actiontriggers.xml"/>
-		<xi:include href="admin/acquisitions_admin_functions.xml"/>
 		<xi:include href="admin/localization.xml"/>-->
 		<xi:include href="admin/admin-booking.xml"/>
 		

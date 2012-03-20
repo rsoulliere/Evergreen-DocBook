@@ -19,8 +19,7 @@
 <section id="acq_workflow">
 	<title>Acquisitons Workflow</title>
 	<simpara>The following diagram shows how the workflow functions in Evergreen.  One of the differences in this process you should notice is that when creating a selection 
-	list on the vendor site, libraries will be downloading and importing the vendor bibs and item records.  This will not be batched overnight as was done with with the 
-	previous system.</simpara>
+	list on the vendor site, libraries will be downloading and importing the vendor bibs and item records.</simpara>
 	<mediaobject>
 		<alt>
 			<phrase>Acquisitions Workflow</phrase> 
