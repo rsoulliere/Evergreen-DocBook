@@ -784,13 +784,13 @@
 				<step>
 					<title>Test connections to OpenSRF</title>
 					<para>Once you have installed and started OpenSRF, as the 
-					<systemitem class="username">root</systemitem> user test your connection to 
+					<systemitem class="username">opensrf</systemitem> user test your connection to 
 					<systemitem class="service">OpenSRF</systemitem> with the <command>srfsh</command> 
 					utility and try to call the <command>add</command> method on the OpenSRF 
 					<systemitem class="service">math</systemitem> service:</para>
 					<screen>
 						<userinput>
-	# as the root user:
+	# as the opensrf user:
 	/openils/bin/srfsh</userinput>
 						<computeroutput>
 	srfsh# <userinput>request opensrf.math add 2 2</userinput></computeroutput>
