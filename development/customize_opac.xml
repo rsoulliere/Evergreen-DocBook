@@ -348,7 +348,7 @@ name='Default' csstype='color'/&gt;
 		<para>It is possible to embed a simple search form into an html page which will allow users to search for materials in your Evergreen catalog. Here is code which can be embedded 
 		anywhere in the body of your web page:</para> 
 <programlisting language="html"><![CDATA[
-<form action="http://[domain name]/opac/[locale]/skin/default/xml/rresult.xml" method="get">
+<form action="http://[domain name]/opac/[locale]/skin/default/xml/rresult.xml" accept-charset="UTF-8" method="get">
 <div>
         Quick Catalog Search:<br />
         <input type="text" alt="Input Box for Catalog Search" maxlength="250" 
