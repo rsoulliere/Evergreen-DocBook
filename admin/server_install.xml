@@ -81,8 +81,9 @@ The <emphasis role="strong">egadmin</emphasis> Evergreen account is an administr
 <title>Preamble: Getting an Evergreen official release tarball</title>
 <simpara>To download and extract the source for the current release of Evergreen, issue
 the following commands as the <emphasis role="strong">user</emphasis> Linux account:</simpara>
-<programlisting language="bash" linenumbering="unnumbered">wget -c http://evergreen-ils.org/downloads/Evergreen-ILS-2.1.1.tar.gz
-tar xzf Evergreen-ILS-2.1.1.tar.gz</programlisting>
+<programlisting language="bash" linenumbering="unnumbered">
+wget -c http://evergreen-ils.org/downloads/Evergreen-ILS-2.1.3.tar.gz
+tar xzf Evergreen-ILS-2.1.3.tar.gz</programlisting>
 </simplesect>
 <simplesect id="_preamble_developer_instructions">
 <title>Preamble: Developer instructions</title>
@@ -217,7 +218,7 @@ Once you have configured and compiled Evergreen, issue the following
    Change the value of the <literal>STAFF_CLIENT_STAMP_ID</literal> variable to match the version
    of the staff client that you will use to connect to the Evergreen server.
 </simpara>
-<programlisting language="bash" linenumbering="unnumbered">make STAFF_CLIENT_STAMP_ID=rel_2_1_1 install</programlisting>
+<programlisting language="bash" linenumbering="unnumbered">make STAFF_CLIENT_STAMP_ID=rel_2_1_3 install</programlisting>
 </listitem>
 <listitem>
 <simpara>
